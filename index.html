@@ -1,16 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Portfolio 2 - by Tommy Johnsen" />
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/ktx5wvo.css" />
+    <link rel="shortcut icon" href="#" />
     <title>Portfolio 2 - CA</title>
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <div class="flex-wrapper">
+      <header><h1 class="main-heading base-margin">Portfolio 2</h1></header>
+      <!-- <hr class="base-margin"/> -->
+      <main>
+        <div class="card-grid">
+          <div class="card">
+            <div class="card-image image-mercury">
+              <h2 class="card-heading base-margin">Semester Project 2</h2>
+            </div>
+            <div class="card-body">
+              <div class="card-wrapper">
+                <div class="card-title-box">
+                  <h3 class="card-title base-margin">Mercury Shoes</h3>
+                </div>
+                <div class="card-icon-box">
+                  <a href="https://github.com/7oiden/mercury-shoes">
+                    <span
+                      class="iconify"
+                      data-icon="akar-icons:github-fill"
+                      style="color: white"
+                      data-width="32"
+                      data-height="32"
+                    ></span>
+                  </a>
+                  <a href="https://kind-poitras-d8dae7.netlify.app/">
+                    <span
+                      class="iconify"
+                      data-icon="cib:netlify"
+                      style="color: white"
+                      data-width="32"
+                      data-height="32"
+                    ></span>
+                  </a>
+                </div>
+              </div>
+              <p class="card-text base-margin">
+                Mercury shoes is an e-commerce site selling running shoes. The
+                site is coded using HTML and vanilla Javascript, and is styled
+                using Sass. The site has a costumer facing side with basket
+                functionality using local storage to store data, and also an
+                admin facing side, where products can be added, edited and
+                deleted. An API from Strapi hosted on Heroku is used to store
+                and fetch content data.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image image-holidaze">
+              <h2 class="card-heading base-margin">Project Exam 2</h2>
+            </div>
+            <div class="card-body">
+              <div class="card-wrapper">
+                <div class="card-title-box">
+                  <h3 class="card-title base-margin">Holidaze</h3>
+                </div>
+                <div class="card-icon-box">
+                  <a href="https://github.com/7oiden/holidaze-exam-2">
+                    <span
+                      class="iconify"
+                      data-icon="akar-icons:github-fill"
+                      style="color: white"
+                      data-width="32"
+                      data-height="32"
+                    ></span>
+                  </a>
+                  <a href="#">
+                    <span
+                      class="iconify"
+                      data-icon="cib:netlify"
+                      style="color: white"
+                      data-width="32"
+                      data-height="32"
+                    ></span>
+                  </a>
+                </div>
+              </div>
+              <p class="card-text base-margin">
+                Holidaze is an accomodation booking site for a local tourist
+                agancy located in Bergen. The site is coded with ReactJS based
+                on React Bootstrap components and styled using Sass. The site
+                has a customer facing side with booking functionality, and a
+                admin section that can be accessed with the use of JWT tokens.
+                In the admin section, contact and booking enquiries can be
+                handled as well as adding new establishments. The WP WooCommerce
+                API is used for the establishments and customer reviews, while a
+                API from Strapi hosted on Heroku is used to store and fetch data
+                from booking- and contact enquiries.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image image-amazing">
+              <h2 class="card-heading base-margin">JS Frameworks CA</h2>
+            </div>
+            <div class="card-body">
+              <div class="card-wrapper">
+                <div class="card-title-box">
+                  <h3 class="card-title base-margin">Amazing Products</h3>
+                </div>
+                <div class="card-icon-box">
+                  <a
+                    href="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-7oiden"
+                  >
+                    <span
+                      class="iconify"
+                      data-icon="akar-icons:github-fill"
+                      style="color: white"
+                      data-width="32"
+                      data-height="32"
+                    ></span>
+                  </a>
+                  <!-- <a href="#">
+                    <span
+                      class="iconify"
+                      data-icon="cib:netlify"
+                      style="color: white"
+                      data-width="32"
+                      data-height="32"
+                    ></span>
+                  </a> -->
+                </div>
+              </div>
+              <p class="card-text base-margin">
+                This JavaScript frameworks course assignment is coded with
+                ReactJS and styled using Sass. It has login functionality that
+                make use of JWT tokens from the Wordpress API. For the content
+                it fetches some random products from the Fake Store API, and
+                displays them in a grid. For each product there is also a
+                details page.
+              </p>
+            </div>
+          </div>
+
+          <div class="card"></div>
+          <div class="card"></div>
+        </div>
+      </main>
+      <!-- <hr class="base-margin"/> -->
+    </div>
+    <footer>
+      <div class="footer-content">
+        <span
+          class="iconify"
+          data-icon="bx:copyright"
+          style="color: #222222"
+          data-width="32"
+          data-height="32"
+        ></span
+        ><span>Tommy Johnsen - 2022</span>
+      </div>
+    </footer>
   </body>
 </html>
